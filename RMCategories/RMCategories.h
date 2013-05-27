@@ -8,5 +8,6 @@
 
 #import "NSDictionary+RMAdditions.h"
 #import "NSMutableDictionary+RMAdditions.h"
+#import "UIApplication+RMAdditions.h"
 #import "UIScrollView+RMAdditions.h"
 #import "UIView+RMAdditions.h"

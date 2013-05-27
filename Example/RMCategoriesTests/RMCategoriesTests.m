@@ -108,4 +108,10 @@
     STAssertTrue([testDictionary boolForKey:@"missing_double"] == 0.0, @"test shorcut for bool default is 0.0");
 }
 
+- (void)testUIApplicationAdditions {
+    STAssertNoThrow([[UIApplication sharedApplication] isAtLeast6_0], @"test isAtLeast6_0");
+    STAssertNoThrow([[UIApplication sharedApplication] isAtLeast5_1], @"test isAtLeast5_1");
+    STAssertNoThrow([[UIApplication sharedApplication] isAtLeast5_0_1], @"test isAtLeast5_0_1");
+}
+
 @end
