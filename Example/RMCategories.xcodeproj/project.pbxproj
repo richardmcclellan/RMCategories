@@ -40,6 +40,8 @@
 		BBAA12D31753FADA007BC709 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBAA12CA1753FADA007BC709 /* InfoPlist.strings */; };
 		BBAA12D51753FC8C007BC709 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BBAA12D41753FC8C007BC709 /* LICENSE */; };
 		BBAA12D61753FC8C007BC709 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BBAA12D41753FC8C007BC709 /* LICENSE */; };
+		BBAA12D91754007B007BC709 /* UIApplication+RMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAA12D81754007B007BC709 /* UIApplication+RMAdditions.m */; };
+		BBAA12DA1754007B007BC709 /* UIApplication+RMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAA12D81754007B007BC709 /* UIApplication+RMAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,8 @@
 		BBAA12C81753FADA007BC709 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "RMCategories/Default@2x.png"; sourceTree = SOURCE_ROOT; };
 		BBAA12CB1753FADA007BC709 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		BBAA12D41753FC8C007BC709 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BBAA12D71754007B007BC709 /* UIApplication+RMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+RMAdditions.h"; sourceTree = "<group>"; };
+		BBAA12D81754007B007BC709 /* UIApplication+RMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+RMAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +173,8 @@
 				BBAA12981753DB2D007BC709 /* NSDictionary+RMAdditions.m */,
 				BBAA12991753DB2D007BC709 /* NSMutableDictionary+RMAdditions.h */,
 				BBAA129A1753DB2D007BC709 /* NSMutableDictionary+RMAdditions.m */,
+				BBAA12D71754007B007BC709 /* UIApplication+RMAdditions.h */,
+				BBAA12D81754007B007BC709 /* UIApplication+RMAdditions.m */,
 				BBAA129B1753DB2D007BC709 /* UIScrollView+RMAdditions.h */,
 				BBAA129C1753DB2D007BC709 /* UIScrollView+RMAdditions.m */,
 				BBAA129D1753DB2D007BC709 /* UIView+RMAdditions.h */,
@@ -337,6 +343,7 @@
 				BBAA12A51753DB2D007BC709 /* UIView+RMAdditions.m in Sources */,
 				BBAA12BE1753F4F7007BC709 /* main.m in Sources */,
 				BBAA12C41753F552007BC709 /* RMAppDelegate.m in Sources */,
+				BBAA12D91754007B007BC709 /* UIApplication+RMAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +358,7 @@
 				BBAA12A61753DB2D007BC709 /* UIView+RMAdditions.m in Sources */,
 				BBAA12BF1753F4F7007BC709 /* main.m in Sources */,
 				BBAA12C51753F552007BC709 /* RMAppDelegate.m in Sources */,
+				BBAA12DA1754007B007BC709 /* UIApplication+RMAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
