@@ -13,7 +13,8 @@
 
 @property (nonatomic, strong) UIView *testView;
 @property (nonatomic, strong) UIScrollView *testScrollView;
-
+@property (nonatomic, strong) NSDictionary *testDictionary;
+@property (nonatomic, strong) NSMutableDictionary *testMutableDictionary;
 @end
 
 @implementation RMCategoriesTests
@@ -22,12 +23,10 @@
     [super setUp];
     self.testView = [[UIView alloc] initWithFrame:CGRectZero];
     self.testScrollView = [[UIScrollView alloc] initWithFrame:CGRectZero];
+    self.testMutableDictionary = [NSMutableDictionary dictionary];
 }
 
-- (void)tearDown
-{
-    // Tear-down code here.
-    
+- (void)tearDown {
     [super tearDown];
 }
 
@@ -89,6 +88,24 @@
     
     self.testScrollView.contentWidth = 17.0;
     STAssertTrue(self.testScrollView.contentWidth == 17.0, @"test shortcut for setting content width");
+}
+
+- (void)testNSDictionaryAdditions {
+    [self.testMutableDictionary setBool:YES forKey:@"bool"];
+    [self.testMutableDictionary setFloat:2.7f forKey:@"float_num"];
+    [self.testMutableDictionary setInteger:3 forKey:@"integer"];
+    [self.testMutableDictionary setDouble:2.4 forKey:@"double"];
+    NSDictionary *testDictionary = [NSDictionary dictionaryWithDictionary:self.testMutableDictionary];
+    
+    STAssertTrue([testDictionary boolForKey:@"bool"] == YES, @"test shortcut for setting bool");
+    STAssertTrue([self.testMutableDictionary floatForKey:@"float_num"] == 2.7f, @"test shortcut for setting float");
+    STAssertTrue([testDictionary integerForKey:@"integer"] == 3, @"test shortcut for setting integer");
+    STAssertTrue([testDictionary doubleForKey:@"double"] == 2.4, @"test shortcut for setting double");
+    
+    STAssertTrue([testDictionary boolForKey:@"missing_bool"] == NO, @"test shorcut for bool default is NO");
+    STAssertTrue([testDictionary boolForKey:@"missing_float"] == 0.0, @"test shorcut for bool default is 0.0");
+    STAssertTrue([testDictionary boolForKey:@"missing_integer"] == 0, @"test shorcut for bool default is 0");
+    STAssertTrue([testDictionary boolForKey:@"missing_double"] == 0.0, @"test shorcut for bool default is 0.0");
 }
 
 @end

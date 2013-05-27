@@ -10,12 +10,6 @@
 		BBAA12621753DAF0007BC709 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAA12611753DAF0007BC709 /* UIKit.framework */; };
 		BBAA12641753DAF0007BC709 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAA12631753DAF0007BC709 /* Foundation.framework */; };
 		BBAA12661753DAF0007BC709 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAA12651753DAF0007BC709 /* CoreGraphics.framework */; };
-		BBAA126C1753DAF0007BC709 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBAA126A1753DAF0007BC709 /* InfoPlist.strings */; };
-		BBAA126E1753DAF0007BC709 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAA126D1753DAF0007BC709 /* main.m */; };
-		BBAA12721753DAF0007BC709 /* RMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAA12711753DAF0007BC709 /* RMAppDelegate.m */; };
-		BBAA12741753DAF0007BC709 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAA12731753DAF0007BC709 /* Default.png */; };
-		BBAA12761753DAF0007BC709 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAA12751753DAF0007BC709 /* Default@2x.png */; };
-		BBAA12781753DAF0007BC709 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAA12771753DAF0007BC709 /* Default-568h@2x.png */; };
 		BBAA12801753DAF0007BC709 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAA127F1753DAF0007BC709 /* SenTestingKit.framework */; };
 		BBAA12811753DAF0007BC709 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAA12611753DAF0007BC709 /* UIKit.framework */; };
 		BBAA12821753DAF0007BC709 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAA12631753DAF0007BC709 /* Foundation.framework */; };
@@ -30,6 +24,22 @@
 		BBAA12A51753DB2D007BC709 /* UIView+RMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAA129E1753DB2D007BC709 /* UIView+RMAdditions.m */; };
 		BBAA12A61753DB2D007BC709 /* UIView+RMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAA129E1753DB2D007BC709 /* UIView+RMAdditions.m */; };
 		BBAA12AB1753DECE007BC709 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAA12651753DAF0007BC709 /* CoreGraphics.framework */; };
+		BBAA12AD1753EEBF007BC709 /* RMCategories.podspec in Resources */ = {isa = PBXBuildFile; fileRef = BBAA12AC1753EEBF007BC709 /* RMCategories.podspec */; };
+		BBAA12AE1753EEBF007BC709 /* RMCategories.podspec in Resources */ = {isa = PBXBuildFile; fileRef = BBAA12AC1753EEBF007BC709 /* RMCategories.podspec */; };
+		BBAA12BE1753F4F7007BC709 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAA12B91753F4F7007BC709 /* main.m */; };
+		BBAA12BF1753F4F7007BC709 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAA12B91753F4F7007BC709 /* main.m */; };
+		BBAA12C41753F552007BC709 /* RMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAA12C31753F552007BC709 /* RMAppDelegate.m */; };
+		BBAA12C51753F552007BC709 /* RMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAA12C31753F552007BC709 /* RMAppDelegate.m */; };
+		BBAA12CC1753FADA007BC709 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAA12C61753FADA007BC709 /* Default-568h@2x.png */; };
+		BBAA12CD1753FADA007BC709 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAA12C61753FADA007BC709 /* Default-568h@2x.png */; };
+		BBAA12CE1753FADA007BC709 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAA12C71753FADA007BC709 /* Default.png */; };
+		BBAA12CF1753FADA007BC709 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAA12C71753FADA007BC709 /* Default.png */; };
+		BBAA12D01753FADA007BC709 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAA12C81753FADA007BC709 /* Default@2x.png */; };
+		BBAA12D11753FADA007BC709 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAA12C81753FADA007BC709 /* Default@2x.png */; };
+		BBAA12D21753FADA007BC709 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBAA12CA1753FADA007BC709 /* InfoPlist.strings */; };
+		BBAA12D31753FADA007BC709 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBAA12CA1753FADA007BC709 /* InfoPlist.strings */; };
+		BBAA12D51753FC8C007BC709 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BBAA12D41753FC8C007BC709 /* LICENSE */; };
+		BBAA12D61753FC8C007BC709 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BBAA12D41753FC8C007BC709 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,15 +57,6 @@
 		BBAA12611753DAF0007BC709 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BBAA12631753DAF0007BC709 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BBAA12651753DAF0007BC709 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BBAA12691753DAF0007BC709 /* RMCategories-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RMCategories-Info.plist"; sourceTree = "<group>"; };
-		BBAA126B1753DAF0007BC709 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BBAA126D1753DAF0007BC709 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BBAA126F1753DAF0007BC709 /* RMCategories-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RMCategories-Prefix.pch"; sourceTree = "<group>"; };
-		BBAA12701753DAF0007BC709 /* RMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMAppDelegate.h; sourceTree = "<group>"; };
-		BBAA12711753DAF0007BC709 /* RMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMAppDelegate.m; sourceTree = "<group>"; };
-		BBAA12731753DAF0007BC709 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		BBAA12751753DAF0007BC709 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		BBAA12771753DAF0007BC709 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		BBAA127E1753DAF0007BC709 /* RMCategoriesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RMCategoriesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBAA127F1753DAF0007BC709 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		BBAA12871753DAF0007BC709 /* RMCategoriesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RMCategoriesTests-Info.plist"; sourceTree = "<group>"; };
@@ -71,6 +72,17 @@
 		BBAA129D1753DB2D007BC709 /* UIView+RMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RMAdditions.h"; sourceTree = "<group>"; };
 		BBAA129E1753DB2D007BC709 /* UIView+RMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RMAdditions.m"; sourceTree = "<group>"; };
 		BBAA12A71753DBC6007BC709 /* RMCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCategories.h; sourceTree = "<group>"; };
+		BBAA12AC1753EEBF007BC709 /* RMCategories.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = RMCategories.podspec; path = ../RMCategories.podspec; sourceTree = "<group>"; };
+		BBAA12B91753F4F7007BC709 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RMCategories/main.m; sourceTree = SOURCE_ROOT; };
+		BBAA12BA1753F4F7007BC709 /* RMCategories-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "RMCategories-Info.plist"; path = "RMCategories/RMCategories-Info.plist"; sourceTree = SOURCE_ROOT; };
+		BBAA12BB1753F4F7007BC709 /* RMCategories-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RMCategories-Prefix.pch"; path = "RMCategories/RMCategories-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		BBAA12C21753F552007BC709 /* RMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMAppDelegate.h; path = RMCategories/RMAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		BBAA12C31753F552007BC709 /* RMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMAppDelegate.m; path = RMCategories/RMAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		BBAA12C61753FADA007BC709 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "RMCategories/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		BBAA12C71753FADA007BC709 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = RMCategories/Default.png; sourceTree = SOURCE_ROOT; };
+		BBAA12C81753FADA007BC709 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "RMCategories/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		BBAA12CB1753FADA007BC709 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		BBAA12D41753FC8C007BC709 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +113,10 @@
 		BBAA12551753DAF0007BC709 = {
 			isa = PBXGroup;
 			children = (
-				BBAA12671753DAF0007BC709 /* RMCategories */,
+				BBAA12D41753FC8C007BC709 /* LICENSE */,
+				BBAA12AC1753EEBF007BC709 /* RMCategories.podspec */,
+				BBAA12961753DB2D007BC709 /* RMCategories */,
+				BBAA12B41753F4B3007BC709 /* RMCategoriesExample */,
 				BBAA12851753DAF0007BC709 /* RMCategoriesTests */,
 				BBAA12601753DAF0007BC709 /* Frameworks */,
 				BBAA125F1753DAF0007BC709 /* Products */,
@@ -126,31 +141,6 @@
 				BBAA127F1753DAF0007BC709 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BBAA12671753DAF0007BC709 /* RMCategories */ = {
-			isa = PBXGroup;
-			children = (
-				BBAA12961753DB2D007BC709 /* RMCategories */,
-				BBAA12701753DAF0007BC709 /* RMAppDelegate.h */,
-				BBAA12711753DAF0007BC709 /* RMAppDelegate.m */,
-				BBAA12681753DAF0007BC709 /* Supporting Files */,
-			);
-			path = RMCategories;
-			sourceTree = "<group>";
-		};
-		BBAA12681753DAF0007BC709 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				BBAA12691753DAF0007BC709 /* RMCategories-Info.plist */,
-				BBAA126A1753DAF0007BC709 /* InfoPlist.strings */,
-				BBAA126D1753DAF0007BC709 /* main.m */,
-				BBAA126F1753DAF0007BC709 /* RMCategories-Prefix.pch */,
-				BBAA12731753DAF0007BC709 /* Default.png */,
-				BBAA12751753DAF0007BC709 /* Default@2x.png */,
-				BBAA12771753DAF0007BC709 /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		BBAA12851753DAF0007BC709 /* RMCategoriesTests */ = {
@@ -186,8 +176,42 @@
 				BBAA12A71753DBC6007BC709 /* RMCategories.h */,
 			);
 			name = RMCategories;
-			path = ../../RMCategories;
+			path = ../RMCategories;
 			sourceTree = "<group>";
+		};
+		BBAA12B41753F4B3007BC709 /* RMCategoriesExample */ = {
+			isa = PBXGroup;
+			children = (
+				BBAA12C21753F552007BC709 /* RMAppDelegate.h */,
+				BBAA12C31753F552007BC709 /* RMAppDelegate.m */,
+				BBAA12B51753F4C1007BC709 /* Supporting Files */,
+			);
+			name = RMCategoriesExample;
+			path = ../RMCategories;
+			sourceTree = "<group>";
+		};
+		BBAA12B51753F4C1007BC709 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBAA12C61753FADA007BC709 /* Default-568h@2x.png */,
+				BBAA12C71753FADA007BC709 /* Default.png */,
+				BBAA12C81753FADA007BC709 /* Default@2x.png */,
+				BBAA12C91753FADA007BC709 /* en.lproj */,
+				BBAA12B91753F4F7007BC709 /* main.m */,
+				BBAA12BA1753F4F7007BC709 /* RMCategories-Info.plist */,
+				BBAA12BB1753F4F7007BC709 /* RMCategories-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBAA12C91753FADA007BC709 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				BBAA12CA1753FADA007BC709 /* InfoPlist.strings */,
+			);
+			name = en.lproj;
+			path = RMCategories/en.lproj;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -261,10 +285,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBAA126C1753DAF0007BC709 /* InfoPlist.strings in Resources */,
-				BBAA12741753DAF0007BC709 /* Default.png in Resources */,
-				BBAA12761753DAF0007BC709 /* Default@2x.png in Resources */,
-				BBAA12781753DAF0007BC709 /* Default-568h@2x.png in Resources */,
+				BBAA12AD1753EEBF007BC709 /* RMCategories.podspec in Resources */,
+				BBAA12CC1753FADA007BC709 /* Default-568h@2x.png in Resources */,
+				BBAA12CE1753FADA007BC709 /* Default.png in Resources */,
+				BBAA12D01753FADA007BC709 /* Default@2x.png in Resources */,
+				BBAA12D21753FADA007BC709 /* InfoPlist.strings in Resources */,
+				BBAA12D51753FC8C007BC709 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +299,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBAA128A1753DAF0007BC709 /* InfoPlist.strings in Resources */,
+				BBAA12AE1753EEBF007BC709 /* RMCategories.podspec in Resources */,
+				BBAA12CD1753FADA007BC709 /* Default-568h@2x.png in Resources */,
+				BBAA12CF1753FADA007BC709 /* Default.png in Resources */,
+				BBAA12D11753FADA007BC709 /* Default@2x.png in Resources */,
+				BBAA12D31753FADA007BC709 /* InfoPlist.strings in Resources */,
+				BBAA12D61753FC8C007BC709 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,12 +331,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBAA126E1753DAF0007BC709 /* main.m in Sources */,
-				BBAA12721753DAF0007BC709 /* RMAppDelegate.m in Sources */,
 				BBAA129F1753DB2D007BC709 /* NSDictionary+RMAdditions.m in Sources */,
 				BBAA12A11753DB2D007BC709 /* NSMutableDictionary+RMAdditions.m in Sources */,
 				BBAA12A31753DB2D007BC709 /* UIScrollView+RMAdditions.m in Sources */,
 				BBAA12A51753DB2D007BC709 /* UIView+RMAdditions.m in Sources */,
+				BBAA12BE1753F4F7007BC709 /* main.m in Sources */,
+				BBAA12C41753F552007BC709 /* RMAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +349,8 @@
 				BBAA12A21753DB2D007BC709 /* NSMutableDictionary+RMAdditions.m in Sources */,
 				BBAA12A41753DB2D007BC709 /* UIScrollView+RMAdditions.m in Sources */,
 				BBAA12A61753DB2D007BC709 /* UIView+RMAdditions.m in Sources */,
+				BBAA12BF1753F4F7007BC709 /* main.m in Sources */,
+				BBAA12C51753F552007BC709 /* RMAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,18 +365,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BBAA126A1753DAF0007BC709 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BBAA126B1753DAF0007BC709 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		BBAA12881753DAF0007BC709 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BBAA12891753DAF0007BC709 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BBAA12CA1753FADA007BC709 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBAA12CB1753FADA007BC709 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -412,6 +446,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RMCategories/RMCategories-Prefix.pch";
 				INFOPLIST_FILE = "RMCategories/RMCategories-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -423,6 +458,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RMCategories/RMCategories-Prefix.pch";
 				INFOPLIST_FILE = "RMCategories/RMCategories-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
