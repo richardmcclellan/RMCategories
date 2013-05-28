@@ -42,6 +42,7 @@
 		BBAA12D61753FC8C007BC709 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BBAA12D41753FC8C007BC709 /* LICENSE */; };
 		BBAA12D91754007B007BC709 /* UIApplication+RMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAA12D81754007B007BC709 /* UIApplication+RMAdditions.m */; };
 		BBAA12DA1754007B007BC709 /* UIApplication+RMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAA12D81754007B007BC709 /* UIApplication+RMAdditions.m */; };
+		BBAA15D617554684007BC709 /* UIFont+RMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAA15D517554684007BC709 /* UIFont+RMAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,8 @@
 		BBAA12D41753FC8C007BC709 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BBAA12D71754007B007BC709 /* UIApplication+RMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+RMAdditions.h"; sourceTree = "<group>"; };
 		BBAA12D81754007B007BC709 /* UIApplication+RMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+RMAdditions.m"; sourceTree = "<group>"; };
+		BBAA15D417554684007BC709 /* UIFont+RMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+RMAdditions.h"; sourceTree = "<group>"; };
+		BBAA15D517554684007BC709 /* UIFont+RMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+RMAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +183,8 @@
 				BBAA129D1753DB2D007BC709 /* UIView+RMAdditions.h */,
 				BBAA129E1753DB2D007BC709 /* UIView+RMAdditions.m */,
 				BBAA12A71753DBC6007BC709 /* RMCategories.h */,
+				BBAA15D417554684007BC709 /* UIFont+RMAdditions.h */,
+				BBAA15D517554684007BC709 /* UIFont+RMAdditions.m */,
 			);
 			name = RMCategories;
 			path = ../RMCategories;
@@ -344,6 +349,7 @@
 				BBAA12BE1753F4F7007BC709 /* main.m in Sources */,
 				BBAA12C41753F552007BC709 /* RMAppDelegate.m in Sources */,
 				BBAA12D91754007B007BC709 /* UIApplication+RMAdditions.m in Sources */,
+				BBAA15D617554684007BC709 /* UIFont+RMAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
