@@ -43,6 +43,8 @@
 		BBAA12D91754007B007BC709 /* UIApplication+RMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAA12D81754007B007BC709 /* UIApplication+RMAdditions.m */; };
 		BBAA12DA1754007B007BC709 /* UIApplication+RMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAA12D81754007B007BC709 /* UIApplication+RMAdditions.m */; };
 		BBAA15D617554684007BC709 /* UIFont+RMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAA15D517554684007BC709 /* UIFont+RMAdditions.m */; };
+		BBE9F4CB176CFD26005907A8 /* UIViewController+RMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE9F4CA176CFD26005907A8 /* UIViewController+RMAdditions.m */; };
+		BBE9F4CE176D0074005907A8 /* UIImage+RMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE9F4CD176D0074005907A8 /* UIImage+RMAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +92,10 @@
 		BBAA12D81754007B007BC709 /* UIApplication+RMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+RMAdditions.m"; sourceTree = "<group>"; };
 		BBAA15D417554684007BC709 /* UIFont+RMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+RMAdditions.h"; sourceTree = "<group>"; };
 		BBAA15D517554684007BC709 /* UIFont+RMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+RMAdditions.m"; sourceTree = "<group>"; };
+		BBE9F4C9176CFD26005907A8 /* UIViewController+RMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RMAdditions.h"; sourceTree = "<group>"; };
+		BBE9F4CA176CFD26005907A8 /* UIViewController+RMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RMAdditions.m"; sourceTree = "<group>"; };
+		BBE9F4CC176D0074005907A8 /* UIImage+RMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RMAdditions.h"; sourceTree = "<group>"; };
+		BBE9F4CD176D0074005907A8 /* UIImage+RMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RMAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +191,10 @@
 				BBAA12A71753DBC6007BC709 /* RMCategories.h */,
 				BBAA15D417554684007BC709 /* UIFont+RMAdditions.h */,
 				BBAA15D517554684007BC709 /* UIFont+RMAdditions.m */,
+				BBE9F4C9176CFD26005907A8 /* UIViewController+RMAdditions.h */,
+				BBE9F4CA176CFD26005907A8 /* UIViewController+RMAdditions.m */,
+				BBE9F4CC176D0074005907A8 /* UIImage+RMAdditions.h */,
+				BBE9F4CD176D0074005907A8 /* UIImage+RMAdditions.m */,
 			);
 			name = RMCategories;
 			path = ../RMCategories;
@@ -350,6 +360,8 @@
 				BBAA12C41753F552007BC709 /* RMAppDelegate.m in Sources */,
 				BBAA12D91754007B007BC709 /* UIApplication+RMAdditions.m in Sources */,
 				BBAA15D617554684007BC709 /* UIFont+RMAdditions.m in Sources */,
+				BBE9F4CB176CFD26005907A8 /* UIViewController+RMAdditions.m in Sources */,
+				BBE9F4CE176D0074005907A8 /* UIImage+RMAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

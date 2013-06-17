@@ -10,5 +10,7 @@
 #import "NSMutableDictionary+RMAdditions.h"
 #import "UIApplication+RMAdditions.h"
 #import "UIFont+RMAdditions.h"
+#import "UIImage+RMAdditions.h"
 #import "UIScrollView+RMAdditions.h"
 #import "UIView+RMAdditions.h"
+#import "UIViewController+RMAdditions.h"

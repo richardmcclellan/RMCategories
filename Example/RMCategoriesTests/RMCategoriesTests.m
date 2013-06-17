@@ -15,6 +15,8 @@
 @property (nonatomic, strong) UIScrollView *testScrollView;
 @property (nonatomic, strong) NSDictionary *testDictionary;
 @property (nonatomic, strong) NSMutableDictionary *testMutableDictionary;
+@property (nonatomic, strong) UIViewController *testViewController;
+
 @end
 
 @implementation RMCategoriesTests
@@ -24,6 +26,7 @@
     self.testView = [[UIView alloc] initWithFrame:CGRectZero];
     self.testScrollView = [[UIScrollView alloc] initWithFrame:CGRectZero];
     self.testMutableDictionary = [NSMutableDictionary dictionary];
+    self.testViewController = [[UIViewController alloc] init];
 }
 
 - (void)tearDown {
@@ -62,6 +65,11 @@
     self.testView.size = CGSizeMake(20.0, 21.0);
     STAssertTrue(self.testView.size.width == 20.0, @"test shortcut for setting size");
     STAssertTrue(self.testView.size.height == 21.0, @"test shortcut for setting size");
+    
+    STAssertTrue([UIView animationOptionsWithCurve:UIViewAnimationCurveEaseIn] == UIViewAnimationOptionCurveEaseIn, @"test UIViewAnimationCurve converter");
+    STAssertTrue([UIView animationOptionsWithCurve:UIViewAnimationCurveEaseInOut] == UIViewAnimationOptionCurveEaseInOut, @"test UIViewAnimationCurve converter");
+    STAssertTrue([UIView animationOptionsWithCurve:UIViewAnimationCurveEaseOut] == UIViewAnimationOptionCurveEaseOut, @"test UIViewAnimationCurve converter");
+    STAssertTrue([UIView animationOptionsWithCurve:UIViewAnimationCurveLinear] == UIViewAnimationOptionCurveLinear, @"test UIViewAnimationCurve converter");
 }
 
 - (void)testUIScrollViewAdditions {
@@ -112,6 +120,24 @@
     STAssertNoThrow([[UIApplication sharedApplication] isAtLeast6_0], @"test isAtLeast6_0");
     STAssertNoThrow([[UIApplication sharedApplication] isAtLeast5_1], @"test isAtLeast5_1");
     STAssertNoThrow([[UIApplication sharedApplication] isAtLeast5_0_1], @"test isAtLeast5_0_1");
+}
+
+- (void)testUIViewControllerAdditions {
+    [self.testViewController addObserversForAdjustingViewForKeyboard];
+    NSDictionary *showUserInfo = nil;
+    NSDictionary *hideUserInfo = nil;
+    [[NSNotificationCenter defaultCenter] postNotificationName:UIKeyboardWillShowNotification object:self userInfo:showUserInfo];
+    [[NSNotificationCenter defaultCenter] postNotificationName:UIKeyboardWillHideNotification object:self userInfo:hideUserInfo];
+    [self.testViewController removeObserversForAdjustingViewForKeyboard];
+}
+
+- (void)testUIImageAdditions {
+    STAssertNotNil([UIImage imageWithColor:[UIColor blackColor]], @"test imageWithColor");
+}
+
+- (void)testUIFontAdditions {
+    CGFloat lineHeight = [[UIFont systemFontOfSize:[UIFont systemFontSize]] lineHeight];
+    STAssertTrue(lineHeight > 0, @"test UIFont lineHeight");
 }
 
 @end

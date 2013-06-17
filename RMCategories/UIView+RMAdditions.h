@@ -80,4 +80,11 @@
  */
 @property (nonatomic, assign) CGSize size;
 
+/**
+ * Utility to convert UIViewAnimationCurve to UIViewAnimationOptions
+ *
+ * Used in UIViewController+RMAdditions for animating view for keyboard changes
+ */
++ (UIViewAnimationOptions)animationOptionsWithCurve:(UIViewAnimationCurve)curve;
+
 @end

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "RMCategories"
-  s.version      = "1.0.2"
+  s.version      = "1.1"
   s.summary      = "A collection of Objective-C categories to make iOS development easier."
   s.homepage     = "https://github.com/richardmcclellan/RMCategories"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
