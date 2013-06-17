@@ -129,6 +129,9 @@
     [[NSNotificationCenter defaultCenter] postNotificationName:UIKeyboardWillShowNotification object:self userInfo:showUserInfo];
     [[NSNotificationCenter defaultCenter] postNotificationName:UIKeyboardWillHideNotification object:self userInfo:hideUserInfo];
     [self.testViewController removeObserversForAdjustingViewForKeyboard];
+
+    UIViewController *controller = [[UIViewController alloc] init];
+    [self.testViewController presentNavigationControllerWithRootViewController:controller animated:YES completion:NULL];
 }
 
 - (void)testUIImageAdditions {

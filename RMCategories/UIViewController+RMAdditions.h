@@ -12,5 +12,6 @@
 
 - (void)addObserversForAdjustingViewForKeyboard;
 - (void)removeObserversForAdjustingViewForKeyboard;
+- (void)presentNavigationControllerWithRootViewController:(UIViewController *)controller animated:(BOOL)animated completion:(void (^)(void))completion;
 
 @end

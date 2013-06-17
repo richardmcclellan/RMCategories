@@ -39,4 +39,9 @@
     [self moveViewForKeyboard:notification up:YES];
 }
 
+- (void)presentNavigationControllerWithRootViewController:(UIViewController *)controller animated:(BOOL)animated completion:(void (^)(void))completion {
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:controller];
+    [self presentViewController:navigationController animated:animated completion:completion];
+}
+
 @end
