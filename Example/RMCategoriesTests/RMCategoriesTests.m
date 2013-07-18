@@ -138,9 +138,4 @@
     STAssertNotNil([UIImage imageWithColor:[UIColor blackColor]], @"test imageWithColor");
 }
 
-- (void)testUIFontAdditions {
-    CGFloat lineHeight = [[UIFont systemFontOfSize:[UIFont systemFontSize]] lineHeight];
-    STAssertTrue(lineHeight > 0, @"test UIFont lineHeight");
-}
-
 @end
