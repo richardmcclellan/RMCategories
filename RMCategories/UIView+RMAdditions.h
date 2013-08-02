@@ -87,4 +87,8 @@
  */
 + (UIViewAnimationOptions)animationOptionsWithCurve:(UIViewAnimationCurve)curve;
 
+- (void) addLoadingView;
+- (void) addLoadingViewWithText:(NSString *)text;
+- (void) removeLoadingView;
+
 @end

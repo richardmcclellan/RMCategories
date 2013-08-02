@@ -70,6 +70,9 @@
     STAssertTrue([UIView animationOptionsWithCurve:UIViewAnimationCurveEaseInOut] == UIViewAnimationOptionCurveEaseInOut, @"test UIViewAnimationCurve converter");
     STAssertTrue([UIView animationOptionsWithCurve:UIViewAnimationCurveEaseOut] == UIViewAnimationOptionCurveEaseOut, @"test UIViewAnimationCurve converter");
     STAssertTrue([UIView animationOptionsWithCurve:UIViewAnimationCurveLinear] == UIViewAnimationOptionCurveLinear, @"test UIViewAnimationCurve converter");
+    
+    [self.testView addLoadingView];
+    [self.testView removeLoadingView];
 }
 
 - (void)testUIScrollViewAdditions {

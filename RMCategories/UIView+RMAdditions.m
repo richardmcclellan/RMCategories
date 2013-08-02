@@ -8,6 +8,7 @@
 
 
 #import "UIView+RMAdditions.h"
+#import <objc/runtime.h>
 
 @implementation UIView (RMAdditions)
 
@@ -119,5 +120,47 @@
             return UIViewAnimationOptionCurveLinear;
     }
 }
+
+static const void *kLoadingViewKey = @"LoadingViewKey";
+
+- (void) addLoadingView {
+	[self addLoadingViewWithText:@"Loading..."];
+}
+
+- (void) addLoadingViewWithText:(NSString *)text {
+    [self removeLoadingView];
+	
+    UIView *loadingView = [[UIView alloc] initWithFrame:self.bounds];
+    [loadingView setAutoresizingMask:UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight];
+	[loadingView setBackgroundColor:[UIColor colorWithWhite:0.9 alpha:1.0]];
+    objc_setAssociatedObject(self, kLoadingViewKey, loadingView, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+
+    UILabel *loadingLabel = [[UILabel alloc] initWithFrame:CGRectZero];
+	loadingLabel.backgroundColor = [UIColor clearColor];
+	loadingLabel.font = [UIFont systemFontOfSize:15.0];
+	loadingLabel.textColor = [UIColor blackColor];
+	[loadingLabel setText:text];
+	[loadingLabel sizeToFit];
+    
+	UIActivityIndicatorView *activityIndicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
+    activityIndicator.autoresizingMask = UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleBottomMargin;
+	[activityIndicator startAnimating];
+    activityIndicator.left = (self.width - activityIndicator.width - loadingLabel.width - 5.0) / 2;
+    activityIndicator.centerY = self.centerY;
+	[loadingView addSubview:activityIndicator];
+	
+    loadingLabel.left = (self.width - activityIndicator.width - loadingLabel.width - 5.0) / 2 + activityIndicator.width + 5.0;
+    loadingLabel.centerY = self.centerY;
+    loadingLabel.autoresizingMask = UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleBottomMargin;
+	[loadingView addSubview:loadingLabel];
+    
+	[self addSubview:loadingView];
+}
+
+- (void) removeLoadingView {
+	UIView *loadingView = objc_getAssociatedObject(self, kLoadingViewKey);
+    [loadingView removeFromSuperview];
+}
+
 
 @end
